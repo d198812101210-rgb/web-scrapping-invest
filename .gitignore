@@ -70,3 +70,7 @@ build/
 
 # Environment
 .env.*.local
+
+.next
+.zencoder
+.zenflow
