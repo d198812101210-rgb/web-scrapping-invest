@@ -1,0 +1,14 @@
+module.exports = {
+  extends: ['next/core-web-vitals', 'next/typescript'],
+  rules: {
+    'react/no-unescaped-entities': 'off',
+    '@next/next/no-img-element': 'off',
+    'no-var': 'warn',
+    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/no-empty-object-type': 'warn',
+    '@typescript-eslint/no-require-imports': 'warn',
+    'prefer-const': 'warn',
+    'react-hooks/exhaustive-deps': 'warn',
+  },
+};

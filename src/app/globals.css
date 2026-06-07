@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Finance Dashboard Theme - Dark Mode */
+    --background: 220 15% 8%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 15% 11%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 15% 11%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 45 100% 51%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+
+    --success: 160 84% 39%;
+    --success-foreground: 210 20% 98%;
+
+    --chart-line-1: 160 84% 39%;
+    --chart-line-2: 45 100% 51%;
+    --chart-line-3: 210 100% 56%;
+    --chart-line-4: 0 72% 51%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 160 84% 39%;
+
+    --radius: 0.5rem;
+
+    --status-connected: 160 84% 39%;
+    --status-disconnected: 0 72% 51%;
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 15% 11%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 15% 11%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 45 100% 51%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+
+    --success: 160 84% 39%;
+    --success-foreground: 210 20% 98%;
+
+    --chart-line-1: 160 84% 39%;
+    --chart-line-2: 45 100% 51%;
+    --chart-line-3: 210 100% 56%;
+    --chart-line-4: 0 72% 51%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 160 84% 39%;
+
+    --status-connected: 160 84% 39%;
+    --status-disconnected: 0 72% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
